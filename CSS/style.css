@@ -1,0 +1,281 @@
+.container{
+    clear:both;
+    overflow:auto;
+    background-color: rgb(26, 26, 26);
+  }
+
+.logo img{float:left;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.navigation {
+    font-family: raleway; 
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navigation nav ul li{
+    display: inline-block; padding:10px;
+    font-size:20px; font-family:raleway;
+    float: right; 
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.navigation ul li:hover {
+    background-color: white;
+    opacity: .9;
+    border-radius: 10px;
+    color: black;
+}
+
+.hero-container{
+    background-image: url(../Resources/images/hero_img/wave2-01.png);
+    background-size: cover;
+    background-color: rgb(19, 19, 19);
+    padding-top: 150px;
+    padding-bottom: 225px;
+    padding-right: 200px;
+    padding-left: 100px;
+}
+
+.hero-text h1{
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family:raleway;
+    font-size: 50px;
+    display: flex;
+    animation: fadeIn1 10s;
+}
+
+@keyframes fadeIn1 {
+  0% {opacity:0;} 
+  100% {opacity:1;}
+}
+
+.hero-text button {
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: raleway;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.hero-text p{
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    font-family:raleway;
+    font-size: 20px;
+    animation: fadeIn2 10s;
+
+}
+@keyframes fadeIn2 {
+    0% {opacity:0;} 
+    100% {opacity:1;}
+  }
+  
+.aboutme-container {
+    
+    background-color: rgb(26, 26, 26);
+    padding-top: 178px;
+    padding-bottom: 150px;
+}
+
+.aboutme-text {
+   position: relative;
+    font-family: raleway;
+    color: white;
+    float: right;
+    padding-right: 40px;
+    width: 49%;
+    font-size: 20px;
+}
+
+.aboutme-text h4 {
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.aboutme-image { 
+    float: left;
+    padding-bottom: 100px;
+    width: 50px;
+    padding-left: 250px;
+    position: absolute;
+    border: 2px solid #f3ec78;
+}
+
+.shape {
+    height: 400px;
+    width: 400px;
+    padding-left: 250px;
+}
+
+.my-work-container{
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    font-family: raleway;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.my-work-text h2{
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: raleway;
+    font-size: 50px;
+    padding-bottom: 0px;
+}
+
+.my-work-text p {
+    color: white;
+    font-family: raleway;
+}
+
+.my-work-container{
+    background-color: rgb(26, 26, 26);
+}
+
+.image-gallery {
+    background-color: rgb(26, 26, 26);
+    padding-top: 50px;
+    display: flex;
+    padding: 0 4px;
+    margin: 100px;
+    border-radius: 20px;
+}
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 2 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+.tech-container1 {
+    background-color: rgb(26, 26, 26);
+}
+
+.tech-container {
+    font-family: raleway;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    font-size: 33px;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.tech-container h2{
+    padding-bottom: 55px;
+
+}
+
+.inverse ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 26, 26);
+    font-family: raleway;
+  }
+  
+.inverse li {
+    background:rgb(26, 26, 26);
+    color: white;
+    list-style: none;
+    margin: 0 1.66% 100px;
+    padding: 45px;
+    text-align: center;
+    width: 20%;
+  }
+
+.bgborder{
+    background-color: rgb(26, 26, 26);
+}
+.border {
+      background-color: rgb(26, 26, 26);
+      font-family: raleway;
+      color: white;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    text-align: center;
+    font-size: 25px;
+}
+      
+
+
+
+
+
+
+
+
