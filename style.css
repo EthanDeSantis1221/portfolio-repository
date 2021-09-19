@@ -1,0 +1,538 @@
+
+
+.container{
+    clear:both;
+    overflow:auto;
+    background-color: black;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.logo img{float:left;
+    padding-left: 40px;
+}
+
+.navigation {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navigation nav ul li{
+    display: inline-block; 
+    padding-left:99px;
+    font-size:20px; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    float: right; 
+    color:white
+}
+
+.navigation nav ul li:hover {
+    color: #6A82FB;;
+}
+
+.hero-container {
+    background-color: black;
+}
+
+.hero-container-image {
+    background-image: url(../Resources/images/bg_image/laptop\ render.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+
+.hero-text{
+    color: white;
+    text-align: left;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-left: 900px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 34px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition:1.0s all ease-in-out;
+}
+
+.hero-text-appear {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.aboutme-container {
+    
+    background-color: black;
+    padding-top: 230px;
+    padding-bottom: 300px;
+}
+
+.aboutme-text {
+   position: relative;
+   font-family: 'Poppins', sans-serif;
+    color: white;
+    float: right;
+    padding-top: 100px;
+    padding-right: 300px;
+    padding-left:250px;
+    padding-bottom: 270px;
+    font-size: 20px;
+    opacity: 0;
+    transform: translateX(20px);
+    transition:1.0s all ease-in-out;
+}
+
+.aboutme-text-appear {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.aboutme-text p {
+    font-size: 29px;
+}
+
+.flexbox {
+    display: flex;
+    padding-left: 60px;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition:1.0s all ease-in-out;
+
+}
+
+.flexboxappear {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.skill1 {
+    padding-right: 269px;
+    
+}
+
+.skill2 {
+    padding-right: 269px;
+}
+
+.skill3 {
+    padding:1px
+}
+.my-work-container{
+    background-color: black;
+    text-align: center;
+    font-family: raleway;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.my-work-text h2{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    padding-bottom: 0px;
+
+}
+
+.my-work-text p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.my-work-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1.0s all ease-in-out;
+}
+
+.my-work-text-appear {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.image-gallery {
+    padding-top: 50px;
+    display: flex;
+    padding: 0 4px;
+    margin: 100px;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1.0s all ease-in-out;
+}  
+
+.image-gallery-appear{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 2 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    background-size: 100% 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+.tech-container1 {
+    background-color: black;
+}
+
+.tech-container {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    font-size: 33px;
+    color: white;
+    
+}
+
+.tech-container h2{
+    padding-bottom: 55px;
+}
+
+.inverse-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1.0s all ease-in-out;
+}
+
+.inverse-item-appear {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.inverse-item2 {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 1.0s all ease-in-out;
+}
+
+.inverse-item2-appear {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.inverse {
+    background-color: black;
+}
+
+.inverse ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+  }
+  
+.inverse li {
+    background:black;
+    color: white;
+    list-style: none;
+    margin: 0 1.66% 100px;
+    padding: 45px;
+    text-align: center;
+    width: 20%;
+    
+  }
+
+.border {
+      background-color: rgb(26, 26, 26);
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      padding-top: 100px;
+      background-image: linear-gradient(45deg, #f3ec78, #af4261);
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+      text-align: center;
+      font-size: 25px;
+}
+
+
+/* My work page css start */
+
+
+.contain {
+    background-color: black;
+}
+
+.design_container {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 150px;
+    padding-top: 180px;
+    padding-bottom: 185px;
+    padding-right: 92px;
+    background-color: black;
+}
+
+.assets {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 1.0s all ease-in-out;
+}
+
+.assetappear {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.design_container1 {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 175px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 68%;
+    color: white;
+    font-size: 25px;
+    opacity: 0;
+    transform: translateX(20px);
+    transition: 1.25s all ease-in-out;
+}
+
+.design_container1appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.design_container2 {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 175px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 68%;
+    color: white;
+    font-size: 25px;
+    opacity: 0;
+    transform: translateX(20px);
+    transition: 1.25s all ease-in-out;
+}
+
+.design_container2appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.design_container3 {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 175px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 68%;
+    color: white;
+    font-size: 25px;
+    opacity: 0;
+    transform: translateX(20px);
+    transition: 1.25s all ease-in-out;
+}
+
+.design_container3appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.design_container_text h1 {
+    font-size: 70px;
+    color: white;
+    display: flex;
+}
+
+.design_container_text p {
+    font-size: 30px;
+    color: white;
+}
+
+.image-gallery2 {
+    padding-top: 50px;
+    display: flex;
+    padding: 30px 4px;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 1px;
+}
+
+.column2 {
+    flex: 25%;
+    max-width: 25%;
+    padding: 2 4px;
+  }
+
+  #colour {
+    background-image: linear-gradient(45deg, #FC5C7D, #6A82FB);
+    background-size: 100%;
+    padding-left: 15px;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+
+.colour {
+    background-image: linear-gradient(45deg, #FC5C7D, #6A82FB);
+    background-size: 100%;
+    padding-left: 15px;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 1.25s all ease-in-out;
+}
+
+.colourappear {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+
+/* About me css start */
+
+.about_container {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 150px;
+    padding-top: 180px;
+    padding-bottom: 185px;
+    padding-right: 92px;
+    background-color: black;
+    opacity: 0;
+    transform: translateX(20);
+    transition: 1s all ease-in-out;
+}
+
+
+.about_containerappear {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.about_container1 {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 154px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 84%;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+}
+
+
+.inverse2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 90px;
+  }
+  
+.inverse2 li {
+    background:black;
+    color: white;
+    list-style: none;
+    margin: 0 1.66% 100px;
+    padding: 45px;
+    text-align: left;
+    width: 20%;
+  }
+
+
+  /* Conact me page start */ 
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    font-family: "Poppins", sans-serif;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  
+  .contact_header_container {
+      background-color: rgb(26, 26, 26);
+      padding-left: 150px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  .contact_header {
+      font-family: "poppins", sans-serif;
+      font-size: 30px;
+      color: white;
+  }
+  
+  .containerz {
+    border-radius: 5px;
+    background-color: rgb(26, 26, 26);
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 400px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: white;
+  }
